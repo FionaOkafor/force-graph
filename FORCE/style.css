@@ -1,0 +1,31 @@
+
+  body {
+ background-color: #f5e5ec;
+    height:100vh;
+    width:100vw;
+  }
+
+  svg {
+    margin: 0 auto;
+    display: block;
+    height:100vh;
+    width:100vw;
+  }
+
+  text {
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+
+	div.tooltip {
+    position: absolute;
+    background-color: white;
+    max-width: 200px;
+    height: auto;
+    padding: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 1px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .5);
+    pointer-events: none;
+  }
